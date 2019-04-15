@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+</head>
+<body>
+	<p>Save the program by pressing <kbd>Ctrl+S</kbd></p>
+	<p>if you input wrong value. The program will output <samp>Error!</samp></p>
+	<p> this will give &nbsp; &nbsp; real s&nbsp;pace in a text</p>
+	<p>&copy; &yen; &pound; &euro; &cent; &reg;</p>
+	<p>&spades; &clubs; &diams; &hearts;</p>
+
+	<form>
+		<fieldset>
+			<legend>Name Info</legend>
+			<input type="text" name="fname">
+			<input type="text" name="lname">
+			<input type="submit" name="submit">
+		</fieldset>
+		<textarea></textarea>
+	</form>
+	<form>
+		<input list="cars">
+		<datalist id="cars">
+			<option value="Audi"></option>
+			<option value="BMW"></option>
+			<option value="Suzuki"></option>
+			<option value="FIAT"></option>
+		</datalist>
+	</form>
+	<form>
+		<input type="color" name="favcolor" value="#ff0000">
+		<input type="date" name="bday" min="2019-02-01">
+		<input type="date" name="bday1" max="2019-04-02">
+		<input type="submit" name="submit">
+	</form>
+</body>
+</html>
